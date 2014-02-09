@@ -24,8 +24,23 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+
+DEFAULT_INDEX_TABLESPACE = 'lunch_crew'
+DEFAULT_TABLESPACE = 'lunch_crew'
+TRANSACTIONS_MANAGED = True
+FORCE_SCRIPT_NAME = True
+DEBUG_PROPAGATE_EXCEPTIONS = True
+SESSION_COOKIE_NAME = 'lunch_crew'
+SESSION_CACHE_ALIAS = 'default'
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+DISALLOWED_USER_AGENTS = ()
+USE_X_FORWARDED_HOST = False
+PREPEND_WWW = False
+APPEND_SLASH = False
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 # Application definition
 
