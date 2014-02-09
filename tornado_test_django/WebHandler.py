@@ -5,6 +5,7 @@ from tornado.gen import Task
 from lunch_crew.models import PlaceToEat
 import datetime
 from django.core import serializers
+from tornado_test_django import settings
 
 
 class MainHandler(RequestHandler):
@@ -14,7 +15,7 @@ class MainHandler(RequestHandler):
     def get(self):
         """ Returns a list of places to eat """
         a = AsyncDjango()
-        pps = yield Task(a.get_place_to_eat, "json")
+        pps = yield Task(a.get_place_to_eat, settings.SERIALIZER_FORMAT)
         self.write(pps)
 
 

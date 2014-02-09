@@ -44,6 +44,9 @@ APPEND_SLASH = False
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 SECURE_PROXY_SSL_HEADER = None
 DEFAULT_CHARSET = 'utf-8'
+SERIALIZER_FORMAT = 'json'
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
+STATIC_PATH = os.path.join(BASE_DIR, 'static')
 
 # Application definition
 
