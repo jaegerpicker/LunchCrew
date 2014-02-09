@@ -8,6 +8,7 @@ class PlaceType(models.Model):
 
 
 class Address(models.Model):
+	"""The Address of the place to go eat"""
 	street = models.CharField(max_length=255)
 	street2 = models.CharField(max_length=255)
 	city = models.CharField(max_length=255)
@@ -17,6 +18,7 @@ class Address(models.Model):
 
 
 class PlaceToEat(models.Model):
+	"""Place to go to eat at"""
 	place_name = models.CharField(max_length=255)
 	place_type = models.ForeignKey(PlaceType)
 	address = models.ForeignKey(Address)
@@ -32,6 +34,7 @@ class Comments(models.Model):
 
 
 class SuggestedDate(models.Model):
+	"""Date suggested to go to eat"""
 	dt_to_eat =  models.DateTimeField()
 	users = models.ManyToManyField(User)
 	comment = models.ForeignKey(Comments)
