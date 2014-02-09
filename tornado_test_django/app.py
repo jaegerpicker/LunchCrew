@@ -1,19 +1,24 @@
-from tornado import ioloop
-from tornado import web
-from tornado.escape import json_encode
-from tornado.options import options 
+"""Main application using django and tornado"""
+from tornado.options import options
 from tornado.options import define
-from tornado.options import parse_command_line
 import tornado.httpserver
 import tornado.wsgi
 import django.core.handlers.wsgi
+from WebHandler import MainHandler
+from webSocketHandler import WSHandler
+from django.conf import settings
+from tornado_test_django import settings as ttdsettings
 
 define('port', type=int, default=8080)
 
 
 def main():
-    wsgi_app = tornado.wsgi.WSGIContainer(django.core.handlers.wsgi.WSGIHandler())
-    tornado_app = tornado.web.Application([('/', MainHandler),('/websocket', WSHandler),
+    """Main function running the server """
+    settings.configure(ttdsettings)
+    wsgi_app = tornado.wsgi.WSGIContainer(
+        django.core.handlers.wsgi.WSGIHandler())
+    tornado_app = tornado.web.Application([('/', MainHandler),
+        ('/websocket', WSHandler),
         ('.*', tornado.web.FallbackHandler, dict(fallback=wsgi_app)),
       ])
     server = tornado.httpserver.HTTPServer(tornado_app)
