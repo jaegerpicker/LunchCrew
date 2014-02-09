@@ -1,0 +1,4 @@
+-e git://github.com/django/django.git@5d263dee304fdaf95e18d2f0619d6925984a7f02#egg=Django-master
+backports.ssl-match-hostname==3.4.0.2
+tornado==3.2
+wsgiref==0.1.2
