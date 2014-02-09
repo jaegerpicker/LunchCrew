@@ -4,6 +4,7 @@ from tornado.gen import coroutine
 from tornado.gen import Task
 from lunch_crew.models import PlaceToEat
 import datetime
+from django.core import serializers
 
 
 class MainHandler(RequestHandler):
@@ -11,13 +12,14 @@ class MainHandler(RequestHandler):
 
     @coroutine
     def get(self):
-        """ Get method of the class """
+        """ Returns a list of places to eat """
         a = AsyncDjango()
-        pps = yield Task(a.get_place_to_eat)
-        self.write("Hello I'm from tornado " + pps.place_name)
+        pps = yield Task(a.get_place_to_eat, "json")
+        self.write(pps)
 
 
 class AsyncDjango():
-    def get_place_to_eat(self, callback):
-        p = PlaceToEat.objects.all()[0]
-        callback(p)
+    def get_place_to_eat(self, serializer, callback):
+        p = PlaceToEat.objects.all()
+        data = serializers.serialize(serializer, p)
+        callback(data)
