@@ -13,6 +13,7 @@ class Address(models.Model):
 	street2 = models.CharField(max_length=255)
 	city = models.CharField(max_length=255)
 	zipcode =  models.IntegerField()
+	state = models.CharField(max_length=255)
 	lat = models.FloatField(blank=True, null=True)
 	lon = models.FloatField(blank=True, null=True)
 

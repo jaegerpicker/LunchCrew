@@ -6,15 +6,14 @@ import tornado.wsgi
 import django.core.handlers.wsgi
 from WebHandler import MainHandler
 from webSocketHandler import WSHandler
-from django.conf import settings
-from tornado_test_django import settings as ttdsettings
+
 
 define('port', type=int, default=8080)
 
 
 def main():
     """Main function running the server """
-    settings.configure(ttdsettings)
+    django.setup()
     wsgi_app = tornado.wsgi.WSGIContainer(
         django.core.handlers.wsgi.WSGIHandler())
     tornado_app = tornado.web.Application([('/', MainHandler),
