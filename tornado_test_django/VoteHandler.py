@@ -2,7 +2,7 @@
 from tornado.web import RequestHandler
 from tornado.gen import coroutine
 from tornado.gen import Task
-from lunch_crew.models import Vote
+from lunch_crew.models import Votes
 import datetime
 from django.core import serializers
 from tornado_test_django import settings

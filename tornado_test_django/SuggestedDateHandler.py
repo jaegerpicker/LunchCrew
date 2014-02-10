@@ -6,8 +6,8 @@ from tornado_test_django import settings
 import AsyncDjango
 
 
-class CommentHandler(RequestHandler):
+class SuggestedDateHandler(RequestHandler):
     """ Handler Class """
 
     def get(self):
-    	self.write("Comments")
+    	self.write("Suggested Date")
