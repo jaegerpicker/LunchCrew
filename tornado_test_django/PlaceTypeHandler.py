@@ -10,4 +10,4 @@ class PlaceTypeHandler(RequestHandler):
     """ Handler Class """
 
     def get(self):
-    	self.write("place type")
+        self.write("place type")

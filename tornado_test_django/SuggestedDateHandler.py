@@ -10,4 +10,4 @@ class SuggestedDateHandler(RequestHandler):
     """ Handler Class """
 
     def get(self):
-    	self.write("Suggested Date")
+        self.write("Suggested Date")
