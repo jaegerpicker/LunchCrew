@@ -8,10 +8,11 @@ from WebHandler import MainHandler
 from PlaceToEatHandler import PlaceToEatHandler
 from PlacesToEatHandler import PlacesToEatHandler
 from VoteHandler import VoteHandler
-from CommentHandler import CommentHandler
+from CommentHandler import CommentHandler, CommentsExtendedhandler
 from SuggestedDateHandler import SuggestedDateHandler
-from PlaceTypeHandler import PlaceTypeHandler
-from PicsHandler import PicsHandler
+from SuggestedDatesHandler import SuggestedDatesHandler
+from PlaceTypeHandler import PlaceTypeHandler, PlaceTypeExtendedHandler
+from AddressHandler import AddressHandler, AddressExtendedHandler
 from webSocketHandler import WSHandler
 from tornado_test_django import settings
 
@@ -30,9 +31,13 @@ class Application(tornado.web.Application):
         (r'/placetoeat(?:/(.*))?', PlaceToEatHandler),
         (r'/vote/([^/]+)', VoteHandler),
         (r'/comment([^/]+)', CommentHandler),
+        (r'/comments([^/]+)', CommentsExtendedhandler),
+        (r'/address([^/]+)', AddressHandler),
+        (r'/addresses([^/]+)', AddressExtendedHandler),
         (r'/placetype([^/]+)', PlaceTypeHandler),
-        (r'/pics([^/]+)', PicsHandler),
+        (r'/placetypes([^/]+)', PlaceTypeExtendedHandler),
         (r'/suggesteddate([^/]+)', SuggestedDateHandler),
+        (r'/suggesteddates([^/]+)', SuggestedDatesHandler),
         (r'/websocket([^/]+)', WSHandler),
         (r'.*', tornado.web.FallbackHandler, dict(fallback=wsgi_app)),
         (r'/js/(.*)', tornado.web.StaticFileHandler, {'path': static_path}),

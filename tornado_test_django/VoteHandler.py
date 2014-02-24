@@ -15,3 +15,24 @@ class VoteHandler(RequestHandler):
         a = AsyncDjango()
         v = yield Task(a.get_votes, settings.SERIALIZER_FORMAT, id)
         self.write(v)
+
+
+    @coroutine
+    def put(self, id, vote_val, user_id):
+        a = AsyncDjango()
+        v = yield Task(a.insert_votes, settings.SERIALIZER_FORMAT, id, vote_val, user_id)
+        self.write(v)
+
+
+    @coroutine
+    def post(self, id, vote_val):
+        a = AsyncDjango()
+        v = yield Task(a.update_vote, settings.SERIALIZER_FORMAT, id, vote_val)
+        self.write(v)
+
+
+    @coroutine
+    def delete(self, id):
+        a = AsyncDjango()
+        v = yield Task(a.delete_vote, settings.SERIALIZER_FORMAT, id)
+        self.write(v)

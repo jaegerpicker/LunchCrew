@@ -206,35 +206,13 @@ class AsyncDjango():
         data = serializers.serialize(serializer, ret)
         callback(data)
 
-    #######Pics
-    def get_pic(self, serializer, pic_id, callback):
-        pic = Pics.objects.get(pk=pic_id)
-        data = serializers.serialize(serializer, pic)
-        callback(data)
-
-    def get_pics(self, serializer, callback):
-        pics = Pics.objects.all()
-        data = serializers.serialize(serializer, pics)
-        callback(data)
-
-    def insert_pic(self, serializer, img_path, user_id, place_to_eat_id, callback):
-        pic = Pics()
-        pic.img_path = img_path
-        pic.user_added = User.objects.get(pk=user_id)
-        pic.place = PlaceToEat.objects.get(pk=place_to_eat_id)
-        pic.save()
-        data = serializers.serialize(serializer, pic)
-        callback(data)
-
-
-    def delete_pic(self, serializer, pic_id, callback):
-        pic = Pics.objects.get(pk=pic_id)
-        pic.delete()
-        ret = {'place_type_id': pic_id, 'status': 'deleted'}
-        data = serializers.serialize(serializer, ret)
-        callback(data)
 
     #######Suggested Date
+    def get_suggested_dates_by_date(self, serializer, search_dt, callback):
+        suggested_dates = SuggestedDate.objects.filter(dt_to_eat=search_dt)
+        data = serializers.serialize(serializer, suggested_dates)
+        callback(data)
+
     def get_suggested_date(self, serializer, suggested_date_id, callback):
         suggested_date = SuggestedDate.objects.get(pk=suggested_date_id)
         data = serializers.serialize(serializer, suggested_date)

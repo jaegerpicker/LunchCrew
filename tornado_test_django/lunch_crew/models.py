@@ -38,9 +38,9 @@ class SuggestedDate(models.Model):
     """Date suggested to go to eat"""
     dt_to_eat =  models.DateTimeField()
     users = models.ManyToManyField(User)
-    comment = models.ManyToManyField(Comments)
     added_dt = models.DateTimeField()
     place = models.ForeignKey(PlaceToEat)
+    comment = models.ManyToManyField(Comments)
 
 
 
@@ -51,15 +51,3 @@ class Votes(models.Model):
     user_voting = models.ForeignKey(User)
     vote_dt = models.DateTimeField()
     counter_dt = models.DateTimeField()
-
-
-class Pics(models.Model):
-    """Picures of the place/food"""
-    img_path = models.CharField(max_length=255)
-    user_added = models.ForeignKey(User)
-    added_dt = models.DateTimeField()
-    place = models.ForeignKey(PlaceToEat)
-
-
-
-
