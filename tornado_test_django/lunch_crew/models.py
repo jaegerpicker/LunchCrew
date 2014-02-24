@@ -12,7 +12,7 @@ class Address(models.Model):
     street = models.CharField(max_length=255)
     street2 = models.CharField(max_length=255)
     city = models.CharField(max_length=255)
-    zipcode =  models.IntegerField()
+    zipcode = models.IntegerField()
     state = models.CharField(max_length=255)
     lat = models.FloatField(blank=True, null=True)
     lon = models.FloatField(blank=True, null=True)
@@ -38,7 +38,7 @@ class SuggestedDate(models.Model):
     """Date suggested to go to eat"""
     dt_to_eat =  models.DateTimeField()
     users = models.ManyToManyField(User)
-    comment = models.ForeignKey(Comments)
+    comment = models.ManyToManyField(Comments)
     added_dt = models.DateTimeField()
     place = models.ForeignKey(PlaceToEat)
 
@@ -58,8 +58,7 @@ class Pics(models.Model):
     img_path = models.CharField(max_length=255)
     user_added = models.ForeignKey(User)
     added_dt = models.DateTimeField()
-    attached_to_type = models.CharField(max_length=25)
-    attached_to_id = models.IntegerField()
+    place = models.ForeignKey(PlaceToEat)
 
 
 
