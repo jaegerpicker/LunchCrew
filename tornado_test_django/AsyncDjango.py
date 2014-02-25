@@ -1,4 +1,4 @@
-from lunch_crew.models import PlaceToEat, PlaceType, Address, Votes, SuggestedDate, Comments, Pics
+from lunch_crew.models import PlaceToEat, PlaceType, Address, Votes, SuggestedDate, Comments
 from django.contrib.auth.models import User
 import datetime
 from django.core import serializers
