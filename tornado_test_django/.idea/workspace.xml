@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="56" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.60855263" vertical-offset="0" max-vertical-offset="1020">
+            <state line="37" column="56" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
               <folding>
                 <element signature="e#48#83#0" expanded="true" />
               </folding>
@@ -120,7 +120,18 @@
             <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding>
                 <element signature="e#35#73#0" expanded="true" />
+                <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
+                <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncDjango.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.7894737" vertical-offset="3090" max-vertical-offset="4020">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,8 +174,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1926" />
-    <option name="y" value="22" />
+    <option name="x" value="6" />
+    <option name="y" value="142" />
     <option name="width" value="1920" />
     <option name="height" value="1058" />
   </component>
@@ -708,15 +719,15 @@
       <created>1392042411747</created>
       <updated>1392042411747</updated>
       <workItem from="1392042413594" duration="4451000" />
-      <workItem from="1392819213784" duration="15228000" />
+      <workItem from="1392819213784" duration="17640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19679000" />
+    <option name="totallyTimeSpent" value="22091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1926" y="22" width="1920" height="1058" extended-state="0" />
+    <frame x="6" y="142" width="1920" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -803,6 +814,8 @@
         <state line="13" column="52" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="345">
           <folding>
             <element signature="e#35#73#0" expanded="true" />
+            <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
+            <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -811,7 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="22" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1005">
           <folding>
-            <element signature="e#0#98#0" expanded="true" />
+            <element signature="e#0#98#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,15 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="26" selection-start="5001" selection-end="5001" vertical-scroll-proportion="-0.49671054" vertical-offset="2463" max-vertical-offset="4065">
-          <folding>
-            <element signature="e#0#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddressHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
@@ -950,16 +954,25 @@
         <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="e#35#73#0" expanded="true" />
+            <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
+            <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="56" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.60855263" vertical-offset="0" max-vertical-offset="1020">
+        <state line="37" column="56" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <folding>
             <element signature="e#48#83#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.7894737" vertical-offset="3090" max-vertical-offset="4020">
+          <folding />
         </state>
       </provider>
     </entry>
