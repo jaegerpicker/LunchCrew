@@ -64,13 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="56" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <folding>
-                <element signature="e#48#83#0" expanded="true" />
-              </folding>
+            <state line="57" column="31" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.69078946" vertical-offset="0" max-vertical-offset="912">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +76,7 @@
       <file leaf-file-name="PlaceTypeHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PlaceTypeHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="30" selection-start="973" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="36" column="30" selection-start="973" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -87,13 +85,10 @@
       <file leaf-file-name="CommentHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CommentHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="42" column="20" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="720">
               <folding>
-                <element signature="e#29#67#0" expanded="true" />
                 <marker date="1393267772000" expanded="true" signature="230:939" placeholder="..." />
                 <marker date="1393267772000" expanded="true" signature="818:939" placeholder="..." />
-                <marker date="1393267772000" expanded="true" signature="988:1138" placeholder="..." />
-                <marker date="1393267772000" expanded="true" signature="1023:1138" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -102,13 +97,10 @@
       <file leaf-file-name="AddressHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AddressHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+            <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="735">
               <folding>
-                <element signature="e#28#66#0" expanded="true" />
                 <marker date="1393267387000" expanded="true" signature="229:1108" placeholder="..." />
                 <marker date="1393267387000" expanded="true" signature="975:1108" placeholder="..." />
-                <marker date="1393267387000" expanded="true" signature="1156:1319" placeholder="..." />
-                <marker date="1393267387000" expanded="true" signature="1191:1319" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -117,9 +109,8 @@
       <file leaf-file-name="VoteHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VoteHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+            <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="660">
               <folding>
-                <element signature="e#35#73#0" expanded="true" />
                 <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
                 <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
               </folding>
@@ -127,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncDjango.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AsyncDjango.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.7894737" vertical-offset="3090" max-vertical-offset="4020">
+            <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.0" vertical-offset="3855" max-vertical-offset="4065">
               <folding />
             </state>
           </provider>
@@ -139,7 +130,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lunch_crew/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="39" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+            <state line="52" column="39" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="885">
               <folding>
                 <marker date="1393266548000" expanded="true" signature="1118:1364" placeholder="..." />
               </folding>
@@ -174,8 +165,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="142" />
+    <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1058" />
   </component>
@@ -205,6 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,7 +263,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,10 +442,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -719,16 +705,22 @@
       <created>1392042411747</created>
       <updated>1392042411747</updated>
       <workItem from="1392042413594" duration="4451000" />
-      <workItem from="1392819213784" duration="17640000" />
+      <workItem from="1392819213784" duration="18448000" />
+      <workItem from="1393299992622" duration="1343000" />
+      <workItem from="1394027423420" duration="462000" />
+      <workItem from="1394055355683" duration="448000" />
+      <workItem from="1394371507047" duration="22000" />
+      <workItem from="1394461406594" duration="163000" />
+      <workItem from="1394461721859" duration="164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22091000" />
+    <option name="totallyTimeSpent" value="25501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="142" width="1920" height="1058" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="1058" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -748,7 +740,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -759,7 +751,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -779,41 +771,152 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PlaceToEatHandler.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="615">
+        <state line="57" column="31" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlaceTypeHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="36" column="30" selection-start="973" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommentHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="20" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="720">
           <folding>
-            <element signature="e#33#71#0" expanded="false" />
+            <marker date="1393267772000" expanded="true" signature="230:939" placeholder="..." />
+            <marker date="1393267772000" expanded="true" signature="818:939" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="735">
+          <folding>
+            <marker date="1393267387000" expanded="true" signature="229:1108" placeholder="..." />
+            <marker date="1393267387000" expanded="true" signature="975:1108" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VoteHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="660">
+          <folding>
+            <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
+            <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.0" vertical-offset="3855" max-vertical-offset="4065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch_crew/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="39" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="885">
+          <folding>
+            <marker date="1393266548000" expanded="true" signature="1118:1364" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="31" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaceTypeHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="30" selection-start="973" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommentHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="20" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="720">
+          <folding>
+            <marker date="1393267772000" expanded="true" signature="230:939" placeholder="..." />
+            <marker date="1393267772000" expanded="true" signature="818:939" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="735">
+          <folding>
+            <marker date="1393267387000" expanded="true" signature="229:1108" placeholder="..." />
+            <marker date="1393267387000" expanded="true" signature="975:1108" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VoteHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="660">
+          <folding>
+            <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
+            <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.0" vertical-offset="3855" max-vertical-offset="4065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunch_crew/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="39" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="885">
+          <folding>
+            <marker date="1393266548000" expanded="true" signature="1118:1364" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaceToEatHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaceTypeHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start_app.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SuggestedDateHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VoteHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="52" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="345">
           <folding>
-            <element signature="e#35#73#0" expanded="true" />
             <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
             <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
           </folding>
@@ -823,9 +926,7 @@
     <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="22" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1005">
-          <folding>
-            <element signature="e#0#98#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,105 +941,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlacesToEatHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <element signature="e#33#71#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlacesToEatHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="914">
-          <folding>
-            <element signature="e#33#71#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start_app.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tornado_test_django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="33" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1755">
-          <folding />
-        </state>
+        <state line="58" column="33" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1755" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lunch_crew/migrations/0003_auto_20140224_1756.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lunch_crew/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="39" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding>
-            <marker date="1393266548000" expanded="true" signature="1118:1364" placeholder="..." />
-          </folding>
-        </state>
+        <state line="27" column="27" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlaceToEatHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
+        <state line="34" column="23" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SuggestedDateHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="28" selection-start="272" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="33" column="28" selection-start="272" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tornado_test_django.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SuggestedDatesHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#33#71#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="21" column="23" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddressHandler.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding>
-            <element signature="e#28#66#0" expanded="true" />
-            <marker date="1393267387000" expanded="true" signature="229:1108" placeholder="..." />
-            <marker date="1393267387000" expanded="true" signature="975:1108" placeholder="..." />
-            <marker date="1393267387000" expanded="true" signature="1156:1319" placeholder="..." />
-            <marker date="1393267387000" expanded="true" signature="1191:1319" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding>
-            <element signature="e#29#67#0" expanded="true" />
-            <marker date="1393267772000" expanded="true" signature="230:939" placeholder="..." />
-            <marker date="1393267772000" expanded="true" signature="818:939" placeholder="..." />
-            <marker date="1393267772000" expanded="true" signature="988:1138" placeholder="..." />
-            <marker date="1393267772000" expanded="true" signature="1023:1138" placeholder="..." />
-          </folding>
+        <state line="57" column="31" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.69078946" vertical-offset="0" max-vertical-offset="912">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,30 +998,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CommentHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="20" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <marker date="1393267772000" expanded="true" signature="230:939" placeholder="..." />
+            <marker date="1393267772000" expanded="true" signature="818:939" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="26" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding>
+            <marker date="1393267387000" expanded="true" signature="229:1108" placeholder="..." />
+            <marker date="1393267387000" expanded="true" signature="975:1108" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/VoteHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding>
-            <element signature="e#35#73#0" expanded="true" />
             <marker date="1393266896000" expanded="true" signature="250:1029" placeholder="..." />
             <marker date="1393266896000" expanded="true" signature="911:1029" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="56" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding>
-            <element signature="e#48#83#0" expanded="true" />
-          </folding>
+        <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.0" vertical-offset="3090" max-vertical-offset="4020">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AsyncDjango.py">
+    <entry file="file://$PROJECT_DIR$/lunch_crew/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="64" selection-start="9653" selection-end="10144" vertical-scroll-proportion="0.7894737" vertical-offset="3090" max-vertical-offset="4020">
-          <folding />
+        <state line="52" column="39" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding>
+            <marker date="1393266548000" expanded="true" signature="1118:1364" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

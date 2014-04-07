@@ -1,0 +1,6 @@
+[submodule "django-trunk"]
+	path = django-trunk
+	url = https://github.com/jaegerpicker/LunchCrew.git
+[submodule "ember_front_end"]
+	path = ember_front_end
+	url = https://github.com/jaegerpicker/LunchCrewWebInterface.git
