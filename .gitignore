@@ -6,3 +6,4 @@ django-trunk/*
 .idea/*
 .idea
 src/*
+ember_front_end/*
